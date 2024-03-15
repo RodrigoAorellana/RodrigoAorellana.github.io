@@ -1,4 +1,4 @@
-h1 {
+.centro {
     margin-left: 550px;
 }
 
@@ -28,6 +28,13 @@ table {
     background-color: red;
 }
 
-button {
-    margin-left: 500px;
+body {
+    font-family: cursive;
+}
+
+.content {
+    border: 5px solid #000000; 
+    padding: 10px;
+    margin-bottom: 20px; 
+    margin-top: 10px;
 }

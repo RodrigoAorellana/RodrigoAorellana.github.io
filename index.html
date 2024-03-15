@@ -8,13 +8,15 @@
 </head>
 <body>
     <h1>Personal Page</h1>
+    <div class="content">
     <h2>Rodrigo Orellana</h2>
     <p id = "major">Industrial Civil Engineer</p>
     <p id= "grade">2020</p>
-    <p>Username:
+    <p>Username Git:
         <a href="https://github.com/RodrigoAorellana">RodrigoAorellana</a>
     </p>
-    <p>Resumen Personal</p>
+    <p>I am 22 years old and I like to do sports</p>
+    </div>
     <table>
         <tr>
             <td id="title">Skill</td>
@@ -26,7 +28,7 @@
         </tr>
         <tr>
             <td>JavaScript</td>
-            <td class="Medium">medium</td>
+            <td class="Medium">Medium</td>
         </tr>
         <tr>
             <td>HTML/CSS</td>
@@ -49,9 +51,20 @@
             <td Class="Expert">Native</td>
         </tr>
     </table>
-    <button>Change Section</button>
-    <input type="text">
-        
+
+    <div class="content">
+    <p id="section">Este texto puede ser cambiado con el cuadro de texto.</p>    
+    <button onclick="changeSection()">Change Section</button>
+    <input type="text" id="input">
+    </div>
+
+    <script>
+       function changeSection() {
+            var sectionInputValue = document.getElementById('input').value;
+            document.getElementById('section').textContent = sectionInputValue;
+        } 
+    </script>
+
 </body>
 </html>
 
