@@ -28,10 +28,13 @@ table {
     background-color: red;
 }
 
-body {
+h1 {
     font-family: cursive;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .content {
     border: 5px solid #000000; 
     padding: 10px;
