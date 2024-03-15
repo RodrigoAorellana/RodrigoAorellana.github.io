@@ -1,0 +1,33 @@
+h1 {
+    margin-left: 550px;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+
+#title {
+    background-color: rgb(116, 85, 253);
+}
+  
+.Expert {
+    background-color: green;
+}
+
+.Medium {
+    background-color: yellow;
+}
+
+.Basic {
+    background-color: red;
+}
+
+button {
+    margin-left: 500px;
+}
